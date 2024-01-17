@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    height: 100vh;
+    color: white;
+    border: 3px solid white;
+}
+h2{
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    gap: 20px;
+}
+button{
+    position: absolute;
+    bottom: 40px;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+label{
+    font-size: 40px;
+}
+input{
+    font-size: 15px;
+    border-radius: 7px;
+}
+select{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: 100vh;
+}
